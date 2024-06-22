@@ -3,6 +3,16 @@
 	"EngineAssociation": "{9D1DE45D-4CC3-EE18-BFB7-1FB73C41226E}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "Arua",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
